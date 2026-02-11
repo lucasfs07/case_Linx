@@ -220,7 +220,7 @@ JSON gerado com sucesso!
  Total de registros rejeitados: 4
 
  Escolhi usar um script em python por 2 motivos,
- Facilidade do cliente utilizar e pensando que o nosso cliente possui uma operação grande, processando milhares de vendas por dia, fica facil adptar esse codigo do lado, 
+ Facilidade do cliente utilizar e pensando que o nosso cliente possui uma operação grande, processando milhares de vendas por dia, fica facil adptar esse codigo do lado dele, 
  adicionei alguns comentarios para que o mesmo consiga utilizar 
 
  esse script gera 2 arquivos 1 com as vendas que podem ser enviadas por atender da todos os critrerios, e outro com as vendas rejeitadas
