@@ -1,0 +1,5 @@
+nsu;data_venda;hora_venda;valor_bruto;valor_liquido;taxa;parcela;bandeira;autorizacao;status;canal_venda;meio_pagamento;id_cliente;nome_cliente;motivo_erro
+123458;2025-03-27;16:05;99.90;95.00;4.90;1;VISA;;APROVADA;ECOMMERCE;CREDITO;321;Ana Lima;Autorização ausente
+123459;2025-03-27;17:20;220.00;213.00;7.00;1;ELO;GHI789;RECUSADA;ECOMMERCE;CREDITO;654;Carlos Souza;Status diferente de APROVADA
+123460;2025-03-26;10:15;75.00;72.00;3.00;1;VISA;JKL012;APROVADA;ECOMMERCE;CREDITO;987;Fernanda Alves;Venda fora do dia D
+;2025-03-27;11:40;180.00;174.00;6.00;1;MASTERCARD;MNO345;APROVADA;ECOMMERCE;CREDITO;159;Rafael Costa;NSU ausente

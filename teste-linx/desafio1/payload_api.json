@@ -1,0 +1,41 @@
+{
+  "data_envio": "2025-03-28",
+  "vendas": [
+    {
+      "id_venda": "123456",
+      "nsu": "123456",
+      "data_transacao": "2025-03-27",
+      "valor": 150.75,
+      "bandeira": "VISA",
+      "codigo_autorizacao": "ABC123",
+      "status": "APROVADA"
+    },
+    {
+      "id_venda": "123457",
+      "nsu": "123457",
+      "data_transacao": "2025-03-27",
+      "valor": 189.5,
+      "bandeira": "MASTERCARD",
+      "codigo_autorizacao": "DEF456",
+      "status": "APROVADA"
+    },
+    {
+      "id_venda": "123461",
+      "nsu": "123461",
+      "data_transacao": "2025-03-27",
+      "valor": 60.0,
+      "bandeira": "VISA",
+      "codigo_autorizacao": "PQR678",
+      "status": "APROVADA"
+    },
+    {
+      "id_venda": "123462",
+      "nsu": "123462",
+      "data_transacao": "2025-03-27",
+      "valor": 310.0,
+      "bandeira": "VISA",
+      "codigo_autorizacao": "STU901",
+      "status": "APROVADA"
+    }
+  ]
+}

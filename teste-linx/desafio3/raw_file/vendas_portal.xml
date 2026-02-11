@@ -1,0 +1,12 @@
+<vendas>
+ <venda><id>1</id><nsu>123456</nsu><usuario_id>1</usuario_id><bandeira_id>1</bandeira_id><data_venda>2025-03-27</data_venda><valor>150.75</valor></venda>
+ <venda><id>2</id><nsu>123457</nsu><usuario_id>2</usuario_id><bandeira_id>2</bandeira_id><data_venda>2025-03-27</data_venda><valor>189.50</valor></venda>
+ <venda><id>3</id><nsu>123458</nsu><usuario_id>3</usuario_id><bandeira_id>1</bandeira_id><data_venda>2025-03-27</data_venda><valor>99.90</valor></venda>
+ <venda><id>4</id><nsu>123459</nsu><usuario_id>1</usuario_id><bandeira_id>3</bandeira_id><data_venda>2025-03-27</data_venda><valor>220.00</valor></venda>
+ <venda><id>5</id><nsu>123460</nsu><usuario_id>2</usuario_id><bandeira_id>1</bandeira_id><data_venda>2025-03-26</data_venda><valor>75.00</valor></venda>
+ <venda><id>6</id><nsu>123461</nsu><usuario_id>4</usuario_id><bandeira_id>1</bandeira_id><data_venda>2025-03-27</data_venda><valor>60.00</valor></venda>
+ <venda><id>7</id><nsu>123462</nsu><usuario_id>1</usuario_id><bandeira_id>1</bandeira_id><data_venda>2025-03-27</data_venda><valor>310.00</valor></venda>
+ <venda><id>8</id><nsu>123463</nsu><usuario_id>3</usuario_id><bandeira_id>2</bandeira_id><data_venda>2025-03-27</data_venda><valor>180.00</valor></venda>
+ <venda><id>9</id><nsu>123464</nsu><usuario_id>2</usuario_id><bandeira_id>1</bandeira_id><data_venda>2025-03-27</data_venda><valor>95.00</valor></venda>
+ <venda><id>10</id><nsu>123465</nsu><usuario_id>4</usuario_id><bandeira_id>3</bandeira_id><data_venda>2025-03-27</data_venda><valor>410.00</valor></venda>
+</vendas>

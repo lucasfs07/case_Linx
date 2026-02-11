@@ -1,0 +1,72 @@
+[
+  {
+    "nsu": "123456",
+    "data_lancamento": "2025-03-28",
+    "valor": 150.75,
+    "autorizacao": "ABC123",
+    "bandeira": "VISA"
+  },
+  {
+    "nsu": "123457",
+    "data_lancamento": "2025-03-28",
+    "valor": 182.00,
+    "autorizacao": "DEF456",
+    "bandeira": "MASTERCARD"
+  },
+  {
+    "nsu": "123460",
+    "data_lancamento": "2025-03-27",
+    "valor": 75.00,
+    "autorizacao": "JKL012",
+    "bandeira": "VISA"
+  },
+  {
+    "nsu": "123461",
+    "data_lancamento": "2025-03-28",
+    "valor": 60.00,
+    "autorizacao": "PQR678",
+    "bandeira": "VISA"
+  },
+  {
+    "nsu": "123462",
+    "data_lancamento": "2025-03-28",
+    "valor": 300.00,
+    "autorizacao": "STU901",
+    "bandeira": "VISA"
+  },
+  {
+    "nsu": "123463",
+    "data_lancamento": "2025-03-28",
+    "valor": 180.00,
+    "autorizacao": "MNO345",
+    "bandeira": "MASTERCARD"
+  },
+  {
+    "nsu": "123466",
+    "data_lancamento": "2025-03-28",
+    "valor": 250.00,
+    "autorizacao": "ASD890",
+    "bandeira": "VISA"
+  },
+  {
+    "nsu": "123467",
+    "data_lancamento": "2025-03-28",
+    "valor": 90.00,
+    "autorizacao": "FGH123",
+    "bandeira": "ELO"
+  },
+  {
+    "nsu": "123468",
+    "data_lancamento": "2025-03-28",
+    "valor": 500.00,
+    "autorizacao": "ZXC456",
+    "bandeira": "VISA"
+  },
+  {
+    "nsu": "123469",
+    "data_lancamento": "2025-03-28",
+    "valor": 130.00,
+    "autorizacao": "VBN789",
+    "bandeira": "MASTERCARD"
+  }
+]

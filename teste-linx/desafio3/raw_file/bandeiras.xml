@@ -1,0 +1,5 @@
+<bandeiras>
+ <bandeira><id>1</id><nome>VISA</nome></bandeira>
+ <bandeira><id>2</id><nome>MASTERCARD</nome></bandeira>
+ <bandeira><id>3</id><nome>ELO</nome></bandeira>
+</bandeiras>

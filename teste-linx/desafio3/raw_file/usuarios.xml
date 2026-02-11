@@ -1,0 +1,6 @@
+<usuarios>
+ <usuario><id>1</id><nome>Maria Silva</nome></usuario>
+ <usuario><id>2</id><nome>João Santos</nome></usuario>
+ <usuario><id>3</id><nome>Ana Lima</nome></usuario>
+ <usuario><id>4</id><nome>Lucas Rocha</nome></usuario>
+</usuarios>

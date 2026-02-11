@@ -1,0 +1,12 @@
+<vendas>
+ <venda><id>1</id><nsu>123456</nsu><data_lancamento>2025-03-28</data_lancamento><valor>150.75</valor></venda>
+ <venda><id>2</id><nsu>123457</nsu><data_lancamento>2025-03-28</data_lancamento><valor>182.00</valor></venda>
+ <venda><id>3</id><nsu>123460</nsu><data_lancamento>2025-03-27</data_lancamento><valor>75.00</valor></venda>
+ <venda><id>4</id><nsu>123461</nsu><data_lancamento>2025-03-28</data_lancamento><valor>60.00</valor></venda>
+ <venda><id>5</id><nsu>123462</nsu><data_lancamento>2025-03-28</data_lancamento><valor>300.00</valor></venda>
+ <venda><id>6</id><nsu>123463</nsu><data_lancamento>2025-03-28</data_lancamento><valor>180.00</valor></venda>
+ <venda><id>7</id><nsu>123466</nsu><data_lancamento>2025-03-28</data_lancamento><valor>250.00</valor></venda>
+ <venda><id>8</id><nsu>123467</nsu><data_lancamento>2025-03-28</data_lancamento><valor>90.00</valor></venda>
+ <venda><id>9</id><nsu>123468</nsu><data_lancamento>2025-03-28</data_lancamento><valor>500.00</valor></venda>
+ <venda><id>10</id><nsu>123469</nsu><data_lancamento>2025-03-28</data_lancamento><valor>130.00</valor></venda>
+</vendas>
