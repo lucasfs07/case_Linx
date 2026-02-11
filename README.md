@@ -468,7 +468,8 @@ Após a execução da DAG, os dados ficam disponíveis para consulta no Amazon A
 
 criação das tabelas
 ----- tabela de vendas portal ------
-  CREATE EXTERNAL TABLE vendas_portal (
+```
+CREATE EXTERNAL TABLE vendas_portal (
   venda_id INT,
   nsu STRING,
   usuario_id INT,
@@ -478,10 +479,11 @@ criação das tabelas
 )
 STORED AS PARQUET
 LOCATION 's3://datalake/curated/vendas_portal/';
-
+```
 
 
 ----- tabela de vendas ERP ------
+```
 CREATE EXTERNAL TABLE vendas_erp (
   venda_id INT,
   nsu STRING,
@@ -490,19 +492,20 @@ CREATE EXTERNAL TABLE vendas_erp (
 )
 STORED AS PARQUET
 LOCATION 's3://datalake/curated/vendas_erp/';
-
+```
 
 
 ----- tabela de usuarios ------
+```
 CREATE EXTERNAL TABLE usuarios (
   usuario_id INT,
   nome STRING
 )
 STORED AS PARQUET
 LOCATION 's3://datalake/curated/usuarios/';
-
+```
 ----- tabela de bandeiras ------
-
+```
 CREATE EXTERNAL TABLE bandeiras (
   bandeira_id INT,
   nome STRING
@@ -510,7 +513,7 @@ CREATE EXTERNAL TABLE bandeiras (
 STORED AS PARQUET
 LOCATION 's3://datalake/curated/bandeiras/';
 
-
+```
 
 
 ---
@@ -526,7 +529,7 @@ Crie consultas que atendam aos cenários abaixo:
    - Utilize **INNER JOIN** ou **LEFT JOIN**, justificando a escolha
 
    Aqui eu usei left join, para trazer somente oq estava errado do lado do ERP o inner join iria trazer só oque existe dos dois lados ignoradno vendas que nao existem no erp porem deveriam existir
-
+```
 WITH conc AS (
   SELECT
     p.nsu,
@@ -540,7 +543,7 @@ SELECT *
 FROM conc
 WHERE valor_portal <> valor_erp
    OR valor_erp IS NULL;
-
+```
 
 O objetivo dessa query é conciliar vendas entre dois sistemas (Portal x ERP) usando o NSU como chave de comparação e identificar divergências de valores ou registros ausentes no ERP
 
@@ -548,7 +551,7 @@ O objetivo dessa query é conciliar vendas entre dois sistemas (Portal x ERP) us
 2. **Análise por Usuário e Bandeira**
    - Retorne nome do usuário e bandeira (dados de domínio)
    - Agrupe e totalize valores
-
+```
 SELECT
   u.nome AS usuario,
   b.nome AS bandeira,
@@ -557,14 +560,14 @@ FROM vendas_portal v
 JOIN usuarios u ON v.usuario_id = u.usuario_id
 JOIN bandeiras b ON v.bandeira_id = b.bandeira_id
 GROUP BY u.nome, b.nome;
-
+```
 total vendido por usuário e por bandeira, utilizando dados de domínio
 
 3. **Ranking e Análise Avançada**
    - Utilize **Window Functions** (ex.: ROW_NUMBER, RANK, SUM() OVER)
    - Gere um ranking de usuários por valor vendido
    - O resutlado deve contenter o nome do usuário, o valor total que ele vendeu, e o percentual que esse valor representa frente ao valor total de venda de todos os usuários
-
+```
 WITH total AS (
   SELECT
     u.nome,
@@ -585,7 +588,7 @@ SELECT
   ROUND((total_vendido / total_geral) * 100, 2) AS percentual,
   RANK() OVER (ORDER BY total_vendido DESC) AS ranking
 FROM geral;
-
+```
 Essa query realiza uma análise avançada de vendas por usuário, utilizando CTEs e Window Functions para gerar ranking e percentual de participação no total vendido.
 ---
 
